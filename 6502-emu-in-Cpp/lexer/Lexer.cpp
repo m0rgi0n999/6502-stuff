@@ -1,80 +1,49 @@
 #include "Lexer.h"
 #include <sstream>
 #include <cctype>
-#include <algorithm>
+#include <unordered_set>
+#include <iostream> // For std::cout
 
-// Constructor
-Lexer::Lexer(const std::string& source) : source(source), pos(0) {}
+// Set of valid 6502 instructions
+const std::unordered_set<std::string> instructions = {
+    "ADC", "AND", "ASL", "BCC", "BCS", "BEQ", "BIT", "BMI", "BNE", "BPL",
+    "BRK", "BVC", "BVS", "CLC", "CLD", "CLI", "CLV", "CMP", "CPX", "CPY",
+    "DEC", "DEX", "DEY", "EOR", "INC", "INX", "INY", "JMP", "JSR", "LDA",
+    "LDX", "LDY", "LSR", "NOP", "ORA", "PHA", "PHP", "PLA", "PLP", "ROL",
+    "ROR", "RTI", "RTS", "SBC", "SEC", "SED", "SEI", "STA", "STX", "STY",
+    "TAX", "TAY", "TSX", "TXA", "TXS", "TYA" 
+};
 
-std::vector<Token> Lexer::tokenize() {
+std::vector<Token> lex(std::istream& input) {
     std::vector<Token> tokens;
-    while (pos < source.size()) {
-        char currentChar = source[pos];
+    std::string line;
 
-        if (isspace(currentChar)) {
-            // Skip spaces
-            pos++;
-        } else if (currentChar == ';') {
-            // Handle comments
-            tokens.push_back(handleComment());
-        } else if (isalpha(currentChar)) {
-            // Handle instructions and labels
-            std::string word = readWord();
-            if (isInstruction(word)) {
-                tokens.push_back(Token(TokenType::INSTRUCTION, word));
-            } else {
-                tokens.push_back(Token(TokenType::LABEL, word));
+    while (std::getline(input, line)) {
+        std::istringstream lineStream(line);
+        std::string word;
+
+        while (lineStream >> word) {
+            // Check if the word is an instruction
+            if (instructions.find(word) != instructions.end()) {
+                tokens.push_back({TokenType::INSTRUCTION, word});
             }
-        } else if (isdigit(currentChar)) {
-            // Handle numbers
-            tokens.push_back(handleNumber());
-        } else if (currentChar == '#') {
-            // Handle immediate operand (e.g., #$FF)
-            tokens.push_back(handleOperand());
-        } else {
-            tokens.push_back(Token(TokenType::INVALID, std::string(1, currentChar)));
-            pos++;
+            // Check if the word is a number (e.g., #$10, $1234)
+            else if (word[0] == '#' || word[0] == '$' || std::isdigit(word[0])) {
+                tokens.push_back({TokenType::NUMBER, word});
+            }
+            // Treat unrecognized tokens as unknown
+            else {
+                tokens.push_back({TokenType::UNKNOWN, word});
+            }
         }
     }
 
-    tokens.push_back(Token(TokenType::EOF_TOKEN, ""));
+    // Debug output: print all tokens
+    /*std::cout << "Lexer Debug Output:\n";
+    for (const auto& token : tokens) {
+        std::cout << "Token: Type=" << static_cast<int>(token.type)
+                  << ", Value=" << token.value << std::endl;
+    }
+    */
     return tokens;
-}
-
-std::string Lexer::readWord() {
-    size_t startPos = pos;
-    while (pos < source.size() && isalnum(source[pos])) {
-        pos++;
-    }
-    return source.substr(startPos, pos - startPos);
-}
-
-Token Lexer::handleComment() {
-    size_t startPos = pos;
-    while (pos < source.size() && source[pos] != '\n') {
-        pos++;
-    }
-    return Token(TokenType::COMMENT, source.substr(startPos, pos - startPos));
-}
-
-Token Lexer::handleNumber() {
-    size_t startPos = pos;
-    while (pos < source.size() && isdigit(source[pos])) {
-        pos++;
-    }
-    return Token(TokenType::NUMBER, source.substr(startPos, pos - startPos));
-}
-
-Token Lexer::handleOperand() {
-    pos++; // Skip the '#'
-    return handleNumber();
-}
-
-bool Lexer::isInstruction(const std::string& word) {
-    static const std::vector<std::string> instructions = {
-        "LDA", "STA", "LDX", "STX", "LDY", "STY", "AND", "OR", "EOR", "ADC", "SBC",
-        "CMP", "CPX", "CPY", "INX", "DEX", "INY", "DEY", "BNE", "BEQ", "BMI", "BPL",
-        "BRK", "RTS", "JSR", "RTI", "NOP", "CLC", "SEC", "CLI", "SEI", "CLV", "SED", "SED"
-    };
-    return std::find(instructions.begin(), instructions.end(), word) != instructions.end();
 }
