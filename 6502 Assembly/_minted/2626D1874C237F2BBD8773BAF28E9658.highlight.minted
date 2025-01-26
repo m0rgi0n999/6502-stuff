@@ -1,0 +1,5 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{LDA}\PYG{+w}{ }\PYG{l+m+mh}{\PYGZdl{}60}
+\PYG{k}{ADC}\PYG{+w}{ }\PYG{l+m+mh}{\PYGZdl{}61}
+\PYG{k}{STA}\PYG{+w}{ }\PYG{l+m+mh}{\PYGZdl{}62}
+\end{MintedVerbatim}

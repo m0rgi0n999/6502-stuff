@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../../../../XForce/C_TR_Ansible"
+		},
+		{
+			"path": "../../../../XForce/AWS-DevOps-PRO"
+		},
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../RPG"
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,910 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.20)  21 JAN 2025 19:57
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"e:/git/Electronics/8-bit cpu/6502/6502 Assembly/6502 Assembly Language Programming (2nd Edition).tex"
+(e:/git/Electronics/8-bit cpu/6502/6502 Assembly/6502 Assembly Language Programming (2nd Edition).tex
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2024-12-25>
+(c:/texlive/2024/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2024/06/29 v1.4n Standard LaTeX document class
+(c:/texlive/2024/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count196
+\c@chapter=\count197
+\c@section=\count198
+\c@subsection=\count199
+\c@subsubsection=\count266
+\c@paragraph=\count267
+\c@subparagraph=\count268
+\c@figure=\count269
+\c@table=\count270
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+) (c:/texlive/2024/texmf-dist/tex/latex/minted/minted.sty
+Package: minted 2024/11/17 v3.4.0 Yet another Pygments shim for LaTeX
+ (c:/texlive/2024/texmf-dist/tex/generic/catchfile/catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+ (c:/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (c:/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (c:/texlive/2024/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+ (c:/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))) (c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count271
+) (c:/texlive/2024/texmf-dist/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2024/11/17 v1.10.0 fvextra - extensions and patches for fancyvrb
+ (c:/texlive/2024/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+\FV@CodeLineNo=\count272
+\FV@InFile=\read2
+\FV@TabBox=\box52
+\c@FancyVerbLine=\count273
+\FV@StepNumber=\count274
+\FV@OutFile=\write3
+) (c:/texlive/2024/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
+) (c:/texlive/2024/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2023/05/20 line numbers on paragraphs v5.3
+ (c:/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (c:/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+\linenopenalty=\count275
+\output=\toks18
+\linenoprevgraf=\count276
+\linenumbersep=\dimen142
+\linenumberwidth=\dimen143
+\c@linenumber=\count277
+\c@pagewiselinenumber=\count278
+\c@LN@truepage=\count279
+\c@internallinenumber=\count280
+\c@internallinenumbers=\count281
+\quotelinenumbersep=\dimen144
+\bframerule=\dimen145
+\bframesep=\dimen146
+\bframebox=\box53
+LaTeX Info: Redefining \\ on input line 3180.
+)
+\c@FancyVerbWriteLine=\count282
+\c@FancyVerbBufferLine=\count283
+\c@FV@TrueTabGroupLevel=\count284
+\c@FV@TrueTabCounter=\count285
+\FV@TabBox@Group=\box54
+\FV@TmpLength=\skip51
+\c@FV@HighlightLinesStart=\count286
+\c@FV@HighlightLinesStop=\count287
+\FV@LoopCount=\count288
+\FV@NCharsBox=\box55
+\FV@BreakIndent=\dimen147
+\FV@BreakIndentNChars=\count289
+\FV@BreakSymbolSepLeft=\dimen148
+\FV@BreakSymbolSepLeftNChars=\count290
+\FV@BreakSymbolSepRight=\dimen149
+\FV@BreakSymbolSepRightNChars=\count291
+\FV@BreakSymbolIndentLeft=\dimen150
+\FV@BreakSymbolIndentLeftNChars=\count292
+\FV@BreakSymbolIndentRight=\dimen151
+\FV@BreakSymbolIndentRightNChars=\count293
+\c@FancyVerbLineBreakLast=\count294
+\FV@LineBox=\box56
+\FV@LineIndentBox=\box57
+\c@FV@BreakBufferDepth=\count295
+\FV@LineWidth=\dimen152
+) (c:/texlive/2024/texmf-dist/tex/latex/latex2pydata/latex2pydata.sty
+Package: latex2pydata 2024/11/17 v0.4.0 latex2pydata - write data to file in Python literal format
+ (c:/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)) (c:/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks19
+\pgfkeys@temptoks=\toks20
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks21
+))) (c:/texlive/2024/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks22
+\pgfopts@list@add@b@toks=\toks23
+) (c:/texlive/2024/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+) (c:/texlive/2024/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count296
+\float@exts=\toks24
+\float@box=\box58
+\@float@everytoks=\toks25
+\@floatcapt=\box59
+)
+\c@minted@FancyVerbLineTemp=\count297
+\@float@every@listing=\toks26
+\c@listing=\count298
+) (c:/texlive/2024/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2024/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks27
+\pgfutil@tempdima=\dimen153
+\pgfutil@tempdimb=\dimen154
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box60
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2024/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen155
+\Gin@req@width=\dimen156
+) (c:/texlive/2024/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+\pgf@x=\dimen157
+\pgf@y=\dimen158
+\pgf@xa=\dimen159
+\pgf@ya=\dimen160
+\pgf@xb=\dimen161
+\pgf@yb=\dimen162
+\pgf@xc=\dimen163
+\pgf@yc=\dimen164
+\pgf@xd=\dimen165
+\pgf@yd=\dimen166
+\w@pgf@writea=\write4
+\r@pgf@reada=\read3
+\c@pgf@counta=\count299
+\c@pgf@countb=\count300
+\c@pgf@countc=\count301
+\c@pgf@countd=\count302
+\t@pgf@toka=\toks28
+\t@pgf@tokb=\toks29
+\t@pgf@tokc=\toks30
+\pgf@sys@id@count=\count303
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+))) (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count304
+\pgfsyssoftpath@bigbuffer@items=\count305
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (c:/texlive/2024/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen167
+\pgfmath@count=\count306
+\pgfmath@box=\box61
+\pgfmath@toks=\toks31
+\pgfmath@stack@operand=\toks32
+\pgfmath@stack@operation=\toks33
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count307
+)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen168
+\pgf@picmaxx=\dimen169
+\pgf@picminy=\dimen170
+\pgf@picmaxy=\dimen171
+\pgf@pathminx=\dimen172
+\pgf@pathmaxx=\dimen173
+\pgf@pathminy=\dimen174
+\pgf@pathmaxy=\dimen175
+\pgf@xx=\dimen176
+\pgf@xy=\dimen177
+\pgf@yx=\dimen178
+\pgf@yy=\dimen179
+\pgf@zx=\dimen180
+\pgf@zy=\dimen181
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen182
+\pgf@path@lasty=\dimen183
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen184
+\pgf@shorten@start@additional=\dimen185
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box62
+\pgf@hbox=\box63
+\pgf@layerbox@main=\box64
+\pgf@picture@serial@count=\count308
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen186
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen187
+\pgf@pt@y=\dimen188
+\pgf@pt@temp=\dimen189
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen190
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen191
+\pgf@sys@shading@range@num=\count309
+\pgf@shadingcount=\count310
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box65
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box66
+) (c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (c:/texlive/2024/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen192
+\pgf@nodesepend=\dimen193
+) (c:/texlive/2024/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+)) (c:/texlive/2024/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (c:/texlive/2024/texmf-dist/tex/latex/pgf/math/pgfmath.sty (c:/texlive/2024/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen194
+\pgffor@skip=\dimen195
+\pgffor@stack=\toks34
+\pgffor@toks=\toks35
+)) (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count311
+\pgfplotmarksize=\dimen196
+)
+\tikz@lastx=\dimen197
+\tikz@lasty=\dimen198
+\tikz@lastxsaved=\dimen199
+\tikz@lastysaved=\dimen256
+\tikz@lastmovetox=\dimen257
+\tikz@lastmovetoy=\dimen258
+\tikzleveldistance=\dimen259
+\tikzsiblingdistance=\dimen260
+\tikz@figbox=\box67
+\tikz@figbox@bg=\box68
+\tikz@tempbox=\box69
+\tikz@tempbox@bg=\box70
+\tikztreelevel=\count312
+\tikznumberofchildren=\count313
+\tikznumberofcurrentchild=\count314
+\tikz@fig@count=\count315
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count316
+\pgfmatrixcurrentcolumn=\count317
+\pgf@matrix@numberofcolumns=\count318
+)
+\tikz@expandcount=\count319
+ (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (c:/texlive/2024/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen261
+\WF@size=\dimen262
+\c@WF@wrappedlines=\count320
+\WF@box=\box71
+\WF@everypar=\toks36
+Package: wrapfig 2003/01/31  v 3.6
+) (c:/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2025/01/07 v5.1.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip52
+\f@nch@offset@elh=\skip53
+\f@nch@offset@erh=\skip54
+\f@nch@offset@olh=\skip55
+\f@nch@offset@orh=\skip56
+\f@nch@offset@elf=\skip57
+\f@nch@offset@erf=\skip58
+\f@nch@offset@olf=\skip59
+\f@nch@offset@orf=\skip60
+\f@nch@height=\skip61
+\f@nch@footalignment=\skip62
+\f@nch@widthL=\skip63
+\f@nch@widthC=\skip64
+\f@nch@widthR=\skip65
+\@temptokenb=\toks37
+) (c:/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (c:/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count321
+\Gm@cntv=\count322
+\c@Gm@tempcnt=\count323
+\Gm@bindingoffset=\dimen263
+\Gm@wd@mp=\dimen264
+\Gm@odd@mp=\dimen265
+\Gm@even@mp=\dimen266
+\Gm@layoutwidth=\dimen267
+\Gm@layoutheight=\dimen268
+\Gm@layouthoffset=\dimen269
+\Gm@layoutvoffset=\dimen270
+\Gm@dimlist=\toks38
+) (c:/texlive/2024/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count324
+\calc@Bcount=\count325
+\calc@Adimen=\dimen271
+\calc@Bdimen=\dimen272
+\calc@Askip=\skip66
+\calc@Bskip=\skip67
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count326
+\calc@Cskip=\skip68
+) (c:/texlive/2024/texmf-dist/tex/latex/sectsty/sectsty.sty
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading styles
+
+
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
+) (c:/texlive/2024/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+) (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count327
+\l__pdf_internal_box=\box72
+) (./6502 Assembly Language Programming (2nd Edition).aux)
+\openout1 = `"6502 Assembly Language Programming (2nd Edition).aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+ (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count328
+\scratchdimen=\dimen273
+\scratchbox=\box73
+\nofMPsegments=\count329
+\nofMParguments=\count330
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count331
+\MPscratchDim=\dimen274
+\MPnumerator=\count332
+\makeMPintoPDFobject=\count333
+\everyMPtoPDFconversion=\toks40
+) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(86.72377pt, 440.84746pt, 86.72377pt)
+* v-part:(T,H,B)=(54.2025pt, 686.56499pt, 54.2025pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=440.84746pt
+* \textheight=686.56499pt
+* \oddsidemargin=14.45378pt
+* \evensidemargin=14.45378pt
+* \topmargin=-48.13498pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=125.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Chapter 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 23.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 23.
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 35--36
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--36
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--38
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+
+
+[1
+
+
+{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (6.15366pt too wide) in paragraph at lines 51--51
+[][]\OT1/cmr/bx/n/10 COMPUTER  
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 52--53
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
+
+ []
+
+
+Overfull \hbox (0.8pt too wide) in paragraph at lines 73--77
+[][]
+ []
+
+
+Overfull \hbox (0.8pt too wide) in paragraph at lines 73--77
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+
+
+[2]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 107--108
+[][] 
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 137--138
+[][] 
+ []
+
+
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+
+ []
+
+
+Overfull \hbox (1.1056pt too wide) in paragraph at lines 183--183
+[]\OT1/cmr/bx/n/10 MNEMONICS  
+ []
+
+
+Overfull \hbox (0.8pt too wide) in paragraph at lines 184--185
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+
+ []
+
+
+Overfull \hbox (0.8pt too wide) in paragraph at lines 195--196
+[][] 
+ []
+
+\pydata@fh@_D83DBCB75307CCF14541E53B431C5F30.data.minted=\write5
+\openout5 = `_D83DBCB75307CCF14541E53B431C5F30.data.minted'.
+
+runsystem(latexminted config  --timestamp 20250121195721 D83DBCB75307CCF14541E53B431C5F30)...executed safely (allowed).
+
+(./_D83DBCB75307CCF14541E53B431C5F30.config.minted)
+runsystem(latexminted cleanconfig  --timestamp 20250121195721 D83DBCB75307CCF14541E53B431C5F30)...executed safely (allowed).
+
+ (./_minted/default.style.minted) (./_minted/2626D1874C237F2BBD8773BAF28E9658.highlight.minted
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 2.
+)
+
+[4]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 211--212
+[][] 
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 228--235
+[][]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 228--235
+[]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 228--235
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--235
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--237
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
+
+ []
+
+
+
+[5]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 259--260
+[][] 
+ []
+
+
+Overfull \hbox (1.0359pt too wide) in paragraph at lines 272--272
+[][]\OT1/cmr/bx/n/10 PORTABILITY  
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 273--274
+[][] 
+ []
+
+(./_minted/D74B2C80AB93A22A072AB0AE307E9A03.highlight.minted)
+Overfull \hbox (0.58424pt too wide) in paragraph at lines 296--296
+[][]\OT1/cmr/bx/n/10 COMPILER  
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 297--298
+[][] 
+ []
+
+
+
+[6]
+Overfull \hbox (0.63585pt too wide) in paragraph at lines 303--303
+[][]\OT1/cmr/bx/n/10 FORTRAN  
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 304--305
+[][] 
+ []
+
+
+Overfull \hbox (6.49045pt too wide) in paragraph at lines 319--320
+[][] 
+ []
+
+
+Overfull \hbox (6.49045pt too wide) in paragraph at lines 327--328
+[][] 
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 339--340
+[][] 
+ []
+
+
+
+[7{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+Overfull \hbox (1.28262pt too wide) in paragraph at lines 352--352
+[]\OT1/cmr/bx/n/10 COMPILERS  
+ []
+
+
+Overfull \hbox (0.8pt too wide) in paragraph at lines 353--354
+[][] 
+ []
+
+
+Overfull \hbox (2.08817pt too wide) in paragraph at lines 359--359
+[][]\OT1/cmr/bx/n/10 ALGEBRAIC  
+ []
+
+
+Overfull \hbox (0.8pt too wide) in paragraph at lines 360--361
+[][] 
+ []
+
+
+Overfull \hbox (0.61348pt too wide) in paragraph at lines 366--366
+[][]\OT1/cmr/bx/n/10 INEFFICIENCY  
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 367--371
+[][]
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 367--371
+[] 
+ []
+
+
+Overfull \hbox (1.04008pt too wide) in paragraph at lines 377--377
+[][]\OT1/cmr/bx/n/10 ADVANTAGES  
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 378--379
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 374--379
+[]\OT1/cmr/m/n/10 The gen-eral ad-van-tages and dis-ad-van-tages of high-level lan-guages are:
+ []
+
+
+Package wrapfig Warning: Collision between wrapping environments on input line 381.
+
+
+Overfull \hbox (0.8pt too wide) in paragraph at lines 384--385
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--385
+[]\OT1/cmr/bx/n/10 Advantages:
+ []
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 385.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 387.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 388.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 389.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 390.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 391.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 392.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 393.
+
+
+
+[8]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 423--424
+[][] 
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 432--433
+[][] 
+ []
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 439--440
+[][] 
+ []
+
+
+
+[9]
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 451--452
+[][] 
+ []
+
+
+Package wrapfig Warning: Collision between wrapping environments on input line 454.
+
+
+Overfull \hbox (0.79999pt too wide) in paragraph at lines 457--458
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--458
+[][]\OT1/cmr/bx/n/10 Machine Lan-guage:
+ []
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 458.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 460.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 463.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 465.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 466.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 467.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 468.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 469.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 470.
+
+
+Package wrapfig Warning: Collision between wrapping environments on input line 473.
+
+
+Overfull \hbox (0.8pt too wide) in paragraph at lines 476--477
+[][] 
+ []
+
+
+Underfull \hbox (badness 6300) in paragraph at lines 483--484
+[]\OT1/cmr/bx/n/10 Applications in-volv-ing more com-pu-ta-tion than in-
+ []
+
+
+
+[10]
+Overfull \hbox (0.8pt too wide) in paragraph at lines 499--500
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[11]
+Overfull \hbox (8.02832pt too wide) in paragraph at lines 528--529
+[]\OT1/cmr/m/n/10 A. Os-borne, $[]$, Osborne/McGraw-
+ []
+
+
+
+[12] (./6502 Assembly Language Programming (2nd Edition).aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2024-12-25>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 17683 strings out of 475134
+ 389938 string characters out of 5765568
+ 872760 words of memory out of 5000000
+ 40400 multiletter control sequences out of 15000+600000
+ 562380 words of font info for 48 fonts, out of 8000000 for 9000
+ 36 hyphenation exceptions out of 8191
+ 102i,14n,107p,1077b,613s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on "6502 Assembly Language Programming (2nd Edition).pdf" (12 pages, 146291 bytes).
+PDF statistics:
+ 87 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+
